@@ -24,7 +24,7 @@ extensions = ["sphinx_copybutton", "sphinx.ext.autodoc", "sphinx.ext.napoleon"]
 napoleon_google_docstring = False
 
 templates_path = ["_templates"]
-exclude_patterns = []
+exclude_patterns: list[str] = []
 
 
 # -- Options for HTML output -------------------------------------------------
