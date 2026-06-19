@@ -13,9 +13,8 @@ pushes a ``TABLESAMPLE`` query down to the source, and a Spark engine for the
 lake — are on the roadmap and implement this same protocol when they land.
 """
 
-from __future__ import annotations
-
 import random
+
 from collections.abc import Iterator, Sequence
 from typing import Any, Protocol, runtime_checkable
 

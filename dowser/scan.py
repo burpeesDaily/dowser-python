@@ -10,8 +10,6 @@ Data Governance series: the more sensitive the class, the stricter the
 downstream protection it implies.
 """
 
-from __future__ import annotations
-
 from dataclasses import dataclass, field
 from enum import IntEnum
 

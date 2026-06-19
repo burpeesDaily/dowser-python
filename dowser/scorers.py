@@ -13,8 +13,6 @@ pass left unresolved. :func:`scan` supports that directly through its
 ``escalate_below`` parameter.
 """
 
-from __future__ import annotations
-
 from collections.abc import Sequence
 
 from dowser.detectors import Detector

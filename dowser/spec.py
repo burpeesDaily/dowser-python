@@ -15,8 +15,6 @@ supplies. This keeps the judgment ("these roles together are sensitive") with
 the user and the mechanism ("which column is the location field") with dowser.
 """
 
-from __future__ import annotations
-
 from collections.abc import Sequence
 from dataclasses import dataclass
 
